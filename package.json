@@ -1,0 +1,37 @@
+{
+  "name": "elon-musk-tribute-page",
+  "version": "1.0.0",
+  "description": "Simple project to practice html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fitomato1/Elon-Musk-Tribute-Page.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "Fitomato",
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fitomato1/Elon-Musk-Tribute-Page/issues"
+  },
+  "homepage": "https://github.com/Fitomato1/Elon-Musk-Tribute-Page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.59.2"
+  },
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
