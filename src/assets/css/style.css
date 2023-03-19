@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Laro-soft;
+  src: url("../fonts/Laro Soft Medium.ttf") format("ttf"), url("../fonts/Laro Soft Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Laro-soft;
+  src: url("../fonts/Laro Soft Semi Bold.ttf") format("ttf"), url("../fonts/Laro Soft Semi Bold.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Laro-soft;
+  src: url("../fonts/Laro Soft Bold.ttf") format("ttf"), url("../fonts/Laro Soft Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container header {
+  height: 100vh;
+  position: relative;
+}
+.container header h1 {
+  font-size: 72px;
+  text-align: center;
+  position: absolute;
+  color: #707070;
+  font-family: "Laro-soft";
+}
+.container header img {
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  bottom: 0;
+}
+.container p {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200) {
+  h1 {
+    background-color: red;
+  }
+}
